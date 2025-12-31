@@ -1,29 +1,29 @@
 package com.iviwebooi.learning_spring_framework.game;
 
-public class MarioGame implements Game{
+public class Pacman implements Game {
 
     @Override
     public void start() {
-        System.out.println("Mario Game Started");
+        System.out.println("Pacman Game Started");
     }
 
     @Override
     public void up() {
-        System.out.println("Jumping");
+        System.out.println("up");
     }
 
     @Override
     public void down() {
-        System.out.println("Going down the hole");
+        System.out.println("down");
     }
 
     @Override
     public void left() {
-        System.out.println("Going left");
+        System.out.println("left");
     }
 
     @Override
     public void right() {
-        System.out.println("Going right");
+        System.out.println("right");
     }
 }

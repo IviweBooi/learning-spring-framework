@@ -1,20 +1,20 @@
 package com.iviwebooi.learning_spring_framework.game;
 
-public class MarioGame implements Game{
+public class SuperContra implements Game{
 
     @Override
-    public void start() {
-        System.out.println("Mario Game Started");
+    public void start(){
+        System.out.println("SuperContra Game Started");
     }
 
     @Override
     public void up() {
-        System.out.println("Jumping");
+        System.out.println("Going Up");
     }
 
     @Override
     public void down() {
-        System.out.println("Going down the hole");
+        System.out.println("Ducking down");
     }
 
     @Override
@@ -24,6 +24,6 @@ public class MarioGame implements Game{
 
     @Override
     public void right() {
-        System.out.println("Going right");
+        System.out.println("Shooting");
     }
 }
