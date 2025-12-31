@@ -8,5 +8,10 @@ public class GameRunner {
 
     public void run(){
         System.out.println("Mario Game Started");
+        marioGame.up();
+        marioGame.down();
+        marioGame.left();
+        marioGame.right();
     }
+
 }
